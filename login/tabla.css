@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(120deg,rgb(120,172,207),rgb(8,74,100)100%);
+    height: 600px;
+}
+
+h3{
+    text-align: center;
+}
+
+#autos{
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 5px 5px 8px black;
+}
+
+h4{
+    text-align: center;
+    background-color: rgb(30, 156, 194);
+    color: white;
+    padding: 8px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.grupo{
+    padding: 8px;
+    position: relative;
+    left: 35px;
+}
+
+#guardar{
+    padding: 4px;
+    position: relative;
+    left: 90px;
+    background-color: rgb(74, 146, 168);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px black;
+}
+
+#guardar:hover{
+    cursor: pointer;
+    background-color: rgb(13, 113, 143);
+    box-shadow: inset 2px 2px 2px black;
+}
+
+table{
+    background-color: white;
+    width: 500px;
+    margin: auto;
+}
+
+th{
+    background-color: rgb(74, 146, 168);
+    color: white;
+}
+
+td{
+    text-align: center;
+}
+
+tbody tr:nth-child(odd){
+    background-color: lightblue;
+}
+
+#modificar,#eliminar{
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    width: 90px;
+}
+
+#mensaje{
+    background-color: black;
+    color: yellow;
+    width: 150px;
+    position: relative;
+    left: 610px;
+}
+
+/14/04/21/
+#marca,#modelo,#precio{
+    width: 150px;
+}
+
+#listado{
+    background-color: cornflowerblue;
+    width: 500px;
+    height: 34px;
+    padding: 4px;
+    margin: auto;
+    border: 2px solid white;
+}
+
+#btnAgrega{
+    box-shadow: 3px 3px 2px black;
+}
+
+#modal{
+    display: flex; 
+    /*position: fixed;*/
+    justify-content: center;
+
+    background-color: rgba(44, 25, 25, 0.3);
+}
